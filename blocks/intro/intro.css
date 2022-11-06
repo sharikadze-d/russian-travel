@@ -3,3 +3,24 @@
   box-sizing: border-box;
   padding-top: 92px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: 90.625%;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: 100%;
+    padding-top: 89px;
+    padding-left: 24px;
+  }  
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    padding-top: 65px;
+    padding-left: 16px;
+  }
+}
