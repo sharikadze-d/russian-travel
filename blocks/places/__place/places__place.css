@@ -1,9 +1,35 @@
 .places__place {
   display: grid;
-  grid-template-columns: minmax(min-content, 460px) 1fr;
+  grid-template-columns: minmax(440px, 35.94vw) 1fr;
   grid-template-rows: min-content 1fr;
   grid-template-areas: 
     'title website'
     'image paragraph';
   gap: 48px 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .places__place {
+    grid-template-columns: minmax(min-content, 340px) 1fr;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 639px) {
+  .places__place {
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    gap: 32px;
+    grid-template-areas: 
+      'title'
+      'website'
+      'image'
+      'parapgraph';
+  }
 }

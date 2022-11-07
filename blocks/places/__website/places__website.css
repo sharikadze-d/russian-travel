@@ -1,7 +1,9 @@
 .places__website {
-  font-size: 18px;
-  line-height: 22px;
-  color: white;
   align-self: end;
 }
 
+@media screen and (max-width: 639px) {
+  .places__website {
+    padding-left: 17px;;
+  }
+}
