@@ -1,7 +1,7 @@
 .cover__link {
   display: flex;
   width: 100%;
-  height: calc((92.5vw * 740) / 1184);
+  min-height: calc((92.5vw * 740) / 1184);
   background: url('../../../images/cover-background.jpg') no-repeat center / cover;
   justify-content: center;
   align-items: center;
@@ -28,6 +28,6 @@
 
 @media screen and (max-width: 1024px) {
   .cover__link {
-    height: calc((100vw * 740) / 1184);
+    min-height: calc((100vw * 740) / 1184);
   }  
 }
