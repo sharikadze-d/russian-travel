@@ -1,8 +1,8 @@
 .cover__link {
   display: flex;
   width: 100%;
-  min-height: calc((92.5vw * 740) / 1184);
-  background: url('../../../images/cover-background.jpg') no-repeat center / cover;
+  min-height: 740px;
+  background: url('../../../images/cover-background.jpg') no-repeat center / contain;
   justify-content: center;
   align-items: center;
   flex-direction: column;

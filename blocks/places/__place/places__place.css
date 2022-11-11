@@ -1,8 +1,8 @@
 .places__place {
   display: grid;
-  grid-template-columns: minmax(440px, 35.94vw) 1fr;
+  grid-template-columns: minmax(440px, 46.748%) 1fr;
   grid-template-rows: min-content 1fr;
-  grid-template-areas: 
+  grid-template-areas:
     'title website'
     'image paragraph';
   gap: 48px 40px;
